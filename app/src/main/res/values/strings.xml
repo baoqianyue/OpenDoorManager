@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">OpenDoorManager</string>
+    <string name="title_home">钥匙在谁那儿</string>
+    <string name="title_dashboard">开门小帮手</string>
+    <string name="title_notifications">个人中心</string>
+    <string name="change_information_image_button">修改头像</string>
+    <string name="change_information_name">修改名字</string>
+    <string name="information_id">用户名</string>
+    <string name="information_account">帐号</string>
+    <string name="my_app_list">钥匙转交记录</string>
+    <string name="the_key_owner_text_title">钥匙在谁那儿</string>
+    <string name="the_key_owner_place_text_title">钥匙的位置</string>
+    <string name="key_change_people">钥匙最好给谁</string>
+    <string name="monday_text">星期一</string>
+    <string name="tuesday_text">星期二</string>
+    <string name="wednesday_text">星期三</string>
+    <string name="thursday_text">星期四</string>
+    <string name="friday_text">星期五</string>
+    <string name="saturday_text">星期六</string>
+    <string name="sunday_text">星期天</string>
+</resources>

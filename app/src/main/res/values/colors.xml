@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#000000</color>
+    <color name="colorDeepBlue">#212079</color>
+    <color name="colorMikuGreen">#01f3fc</color>
+    <color name="colorDeepMikuGreen">#01e5fa</color>
+    <color name="colorButton">#95f7ec</color>
+    <color name="colorDaysListH">#d8edf2</color>
+    <color name="colorDaysListS">#f0f4c1</color>
+    <color name="colorItemContainer">#d2f4e2</color>
+    <color name="colorContainer">#ead7cf</color>
+</resources>

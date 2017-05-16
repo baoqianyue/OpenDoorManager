@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+        <TextView
+            android:id="@+id/key_owner_text_view"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:text="王天锐"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/text_view_holderblack2"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/key_owner_text_view"/>
+
+        <TextView
+            android:id="@+id/key_location_title"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/text_view_holderblack2"
+            android:gravity="center"
+            android:text="@string/the_key_owner_place_text_title"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/text_view_holderblack3"
+            android:layout_width="170dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/key_location_title"
+            android:layout_toRightOf="@id/text_view_holderblack2"/>
+
+        <TextView
+            android:id="@+id/key_location_text_view"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="170dp"
+            android:layout_height="90dp"
+            android:layout_below="@id/key_location_title"
+            android:layout_toRightOf="@id/text_view_holderblack2"
+            android:gravity="center"
+            android:text="钥匙在我桌子上的书旁边"
+            android:textSize="15sp"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        style="?actionMenuTextAppearance"
+        android:textSize="20sp"
+        android:text="@string/key_change_people"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/people_list_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>
